@@ -3,7 +3,11 @@ import FriendCard from "./components/FriendCard";
 import friends from "./friends.json";
 import "../src/css/App.css";
 
+
+
+
 class App extends Component {
+  
   state = {
     friends: friends,
     score: 0,
@@ -71,6 +75,7 @@ class App extends Component {
           </div>
         </div>
       </div>
+      
 
 
     )
