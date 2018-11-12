@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Michael",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/0/07/Michael-portal.png/revision/latest/scale-to-width-down/150?cb=20091222014939",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Jim",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/f/fc/Jim-portal.png/revision/latest/scale-to-width-down/150?cb=20091222014925",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Pam",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/1/1e/Pam-portal.png/revision/latest/scale-to-width-down/150?cb=20091222014950",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Dwight",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/0/0c/Dwight-portal.png/revision/latest/scale-to-width-down/150?cb=20091222014909",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Ryan",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/6/6f/Ryan-portal.png/revision/latest/scale-to-width-down/150?cb=20091222015002",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Angela",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/1/13/Angela-portal.png/revision/latest/scale-to-width-down/150?cb=20100119200006",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Andy",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/e/e7/Andy-portal.png/revision/latest/scale-to-width-down/150?cb=20091222014855",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Kelly",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/8/88/Kelly-portal.png/revision/latest/scale-to-width-down/150?cb=20100119200019",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Toby",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/e/ef/Toby-portal.png/revision/latest/scale-to-width-down/150?cb=20130523215528",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Creed",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/6/60/Creed-portal.png/revision/latest/scale-to-width-down/150?cb=20130523215412",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "Darryl",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/8/88/Darryl-portal.png/revision/latest/scale-to-width-down/150?cb=20130523215424",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "Kevin",
+    "image": "https://vignette.wikia.nocookie.net/theoffice/images/f/f6/Kevin-portal.png/revision/latest/scale-to-width-down/150?cb=20130523215434",
+    "clicked": false
+  }
+]
