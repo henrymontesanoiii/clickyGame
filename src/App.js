@@ -7,7 +7,7 @@ import "../src/css/App.css";
 
 
 class App extends Component {
-  
+
   state = {
     friends: friends,
     score: 0,
@@ -20,32 +20,37 @@ class App extends Component {
     });
     console.log(clickedFriend);
     if (!this.state.clickedFriends.includes(clickedFriend)) {
-      this.setState({ clickedFriends: [...this.state.clickedFriends, clickedFriend] })
-      console.log(this.state.clickedFriends);
+      this.setState({ clickedFriends: [...this.state.clickedFriends, clickedFriend] });
       this.setState({ score: this.state.score + 1 });
-      this.setState({phrase: "Correct!"});
-      this.setState({friends: friends.sort (function(a, b) {
-        return 0.5 - Math.random()})})
+      this.setState({ phrase: "Correct!" });
+      this.setState({
+        friends: friends.sort(function (a, b) {
+          return 0.5 - Math.random()
+        })
+      })
 
-      
+
     }
 
     else if (this.state.clickedFriends.includes(clickedFriend)) {
-      this.setState({ clickedFriends: [] })
+      this.setState({ clickedFriends: [] });
       this.setState({ score: 0 });
-      this.setState({phrase: "Incorrect! Game Over!"})
-      this.setState({friends: friends.sort (function(a, b) {
-        return 0.5 - Math.random()})})
+      this.setState({ phrase: "Incorrect! Game Over!" });
+      this.setState({
+        friends: friends.sort(function (a, b) {
+          return 0.5 - Math.random()
+        })
+      })
     }
   }
 
-  
+
 
   render() {
     return (
       <div>
-        <div id = "head" className="row p-2 mb-5">
-        
+        <div id="head" className="row p-2 mb-5">
+
           <div className="col-5 ml-2">
             <h2> The Office Matching Game</h2>
           </div>
@@ -55,9 +60,9 @@ class App extends Component {
           <div className="col-2">
             <h2> Score: {this.state.score} </h2>
           </div>
-          </div>
-        
-        
+        </div>
+
+
 
         <div className="container">
           <div className="row">
@@ -75,7 +80,7 @@ class App extends Component {
           </div>
         </div>
       </div>
-      
+
 
 
     )
