@@ -1,5 +1,7 @@
 # The Office Matching Game (REACT.js Clicky Game)
+![Matching](https://henrymontesanoiii.github.io/static/media/Click.3a105b1a.png)
 
+####Live Site: [The Office Matching Game!](https://henrymontesanoiii.github.io/clickyGame/)
 
 ----
 ## Basic Functionality
